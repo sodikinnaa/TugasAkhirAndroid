@@ -42,10 +42,6 @@
             android:value="AIzaSyCETet-3YAfv7_JAZinuTrkfFnTZOnHB2g" />
 
         <activity
-            android:name=".MapsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_maps" />
-        <activity
             android:name=".LokasiDitentukan"
             android:exported="false" />
         <activity
