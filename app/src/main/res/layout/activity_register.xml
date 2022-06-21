@@ -7,7 +7,7 @@
     tools:context=".register">
 
     <ImageButton
-        android:id="@+id/btn_regis"
+        android:id="@+id/buttonRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.323"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_regis"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRegister"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -40,7 +40,7 @@
         android:text="Login"
         android:textColor="@color/teal_700"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/btn_regis"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRegister"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -51,10 +51,10 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_regis"
-        app:layout_constraintEnd_toEndOf="@+id/btn_regis"
-        app:layout_constraintStart_toStartOf="@+id/btn_regis"
-        app:layout_constraintTop_toTopOf="@+id/btn_regis" />
+        app:layout_constraintBottom_toBottomOf="@+id/buttonRegister"
+        app:layout_constraintEnd_toEndOf="@+id/buttonRegister"
+        app:layout_constraintStart_toStartOf="@+id/buttonRegister"
+        app:layout_constraintTop_toTopOf="@+id/buttonRegister" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txt_confirm_pw"
