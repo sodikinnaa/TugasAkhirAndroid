@@ -4,19 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.annotation.SuppressLint;
-import android.os.Bundle;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.google.android.material.snackbar.Snackbar;
 
 
 public class login extends AppCompatActivity {
@@ -39,7 +35,7 @@ public class login extends AppCompatActivity {
 
         LogInButton = (ImageView) findViewById(R.id.buttonLogin);
 
-        //RegisterButton = (TextView) findViewById(R.id.buttonRegister);
+        RegisterButton = (TextView) findViewById(R.id.buttonRegister);
 
         Email = (EditText) findViewById(R.id.editEmail);
         Password = (EditText) findViewById(R.id.editPassword);
@@ -66,7 +62,9 @@ public class login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-            //dicuri
+                // Opening new user registration activity using intent on button click.
+                Intent signUpPage = new Intent(login.this, register.class);
+                startActivity(signUpPage);
 
             }
         });
@@ -154,10 +152,5 @@ public class login extends AppCompatActivity {
 
     }
 
-    public void gohome(View view) {
-        // Opening new user registration activity using intent on button click.
-        Intent signUpPage = new Intent(login.this, register.class);
-        startActivity(signUpPage);
 
-    }
 }

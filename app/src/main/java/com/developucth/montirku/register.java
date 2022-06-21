@@ -9,6 +9,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -17,7 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class register extends AppCompatActivity {
 
     EditText Email, Password, Name;
-    TextView Register;
+    ImageButton Register;
     String NameHolder, EmailHolder, PasswordHolder;
     Boolean EditTextEmptyHolder;
     SQLiteDatabase sqLiteDatabaseObj;
@@ -31,7 +32,7 @@ public class register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        Register = (TextView) findViewById(R.id.buttonRegister);
+        Register = (ImageButton) findViewById(R.id.buttonRegister);
 
         Email = (EditText) findViewById(R.id.editEmail);
         Password = (EditText) findViewById(R.id.editPassword);
