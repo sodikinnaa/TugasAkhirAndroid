@@ -18,10 +18,10 @@
         app:srcCompat="@drawable/ic_logo"/>
 
     <ImageView
-        android:id="@+id/btn_login"
+        android:id="@+id/buttonLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="@+id/txt_pw"
         app:layout_constraintHorizontal_bias="0.32"
         app:layout_constraintStart_toStartOf="@+id/txt_pw"
@@ -37,10 +37,10 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_login"
-        app:layout_constraintEnd_toEndOf="@+id/btn_login"
-        app:layout_constraintStart_toStartOf="@+id/btn_login"
-        app:layout_constraintTop_toTopOf="@+id/btn_login" />
+        app:layout_constraintBottom_toBottomOf="@+id/buttonLogin"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLogin"
+        app:layout_constraintStart_toStartOf="@+id/buttonLogin"
+        app:layout_constraintTop_toTopOf="@+id/buttonLogin" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txt_pw"
@@ -54,7 +54,7 @@
         app:layout_constraintEnd_toEndOf="@id/txt_Email">
 
         <EditText
-            android:id="@+id/edt_pw"
+            android:id="@+id/editPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt_pw" />
@@ -72,7 +72,7 @@
         app:layout_constraintTop_toBottomOf="@id/img_logo">
 
         <EditText
-            android:id="@+id/edt_Email"
+            android:id="@+id/editEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt_email" />
@@ -88,19 +88,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.311"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:paddingTop="15px"
-        android:id="@+id/btn_to_regis"
+        android:id="@+id/buttonRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="Registrasi"
         android:textColor="@color/teal_700"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

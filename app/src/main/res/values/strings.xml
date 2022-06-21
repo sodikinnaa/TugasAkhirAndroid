@@ -8,6 +8,6 @@
     <string name="txt_pw">Password</string>
     <string name="txt_email">Email</string>
     <string name="btn_regis">REGISTRASI</string>
-    <string name="txt_noHP">Nomor HP</string>
+    <string name="email">Email</string>
     <string name="txt_confirm_pw">Konfirmasi Password</string>
 </resources>
