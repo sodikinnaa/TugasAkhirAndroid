@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Maps Aplication "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_lokasiYT"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="5dp"
+        android:text="Layanan darurat"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnSearchLok"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="pindah"
+        android:text="Bengkel Terdekat"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btRute"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="5dp"
+        android:text="Search Rute"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="395dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="585dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="Ditentukan"
+        android:text="Map"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

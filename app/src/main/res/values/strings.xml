@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MontirKu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="txt_BuatAkun">Buat Akun</string>
+    <string name="txt_nama">Nama</string>
+    <string name="txt_pw">Password</string>
+    <string name="txt_email">Email</string>
+    <string name="btn_regis">REGISTRASI</string>
+    <string name="txt_noHP">Nomor HP</string>
+    <string name="txt_confirm_pw">Konfirmasi Password</string>
+</resources>
