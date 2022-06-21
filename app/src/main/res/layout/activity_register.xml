@@ -121,14 +121,7 @@
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="@id/txt_nama"
         app:layout_constraintStart_toStartOf="@id/txt_nama"
-        app:layout_constraintTop_toBottomOf="@id/txt_nama">
-
-        <EditText
-            android:id="@+id/edt_noHP"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/txt_noHP" />
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintTop_toBottomOf="@id/txt_nama"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txt_nama"
