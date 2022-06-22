@@ -8,6 +8,7 @@
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3315" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/drawable-v24/ic_logo.xml" value="0.3315" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/drawable/ic_bg_fitur.xml" value="0.2165" />
+        <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/drawable/ic_fitur.xml" value="0.2165" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3315" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/drawable/ic_navbar_bg.xml" value="0.2165" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/drawable/ic_service_rutin.xml" value="0.3315" />
@@ -18,12 +19,13 @@
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/layout/activity_lokasi_ditentukan.xml" value="0.1921875" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/layout/activity_lokasi_saat_ini.xml" value="0.1921875" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
-        <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/layout/activity_maps.xml" value="0.371875" />
+        <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/layout/activity_maps.xml" value="0.22" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/layout/activity_maps2.xml" value="0.371875" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/layout/activity_mecari_rute.xml" value="0.18" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/layout/activity_register.xml" value="0.1921875" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/layout/fragment_blank_fragment.xml" value="0.371875" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/layout/fragment_fitur.xml" value="0.209375" />
+        <entry key="..\:/Users/DeadLine/AndroidStudioProjects/Backup/MontirKu/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/MontirKu/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1945" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/MontirKu/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1945" />
         <entry key="..\:/Users/DeadLine/AndroidStudioProjects/MontirKu/app/src/main/res/drawable/ic_service_rutin.xml" value="0.1945" />
