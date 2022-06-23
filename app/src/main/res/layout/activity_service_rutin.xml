@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service_rutin">
+
+    <TextView
+        android:id="@+id/txt_titleServis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Servis Rutin"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@id/txt_titleServis"
+        app:layout_constraintStart_toStartOf="@id/txt_titleServis"
+        app:layout_constraintTop_toBottomOf="@id/txt_titleServis">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_nsms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_merek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@id/txt_nama"
+        app:layout_constraintStart_toStartOf="@id/txt_nama"
+        app:layout_constraintTop_toBottomOf="@id/txt_nama">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_merek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Merek/Jenis Motor" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="193dp"
+        app:layout_constraintEnd_toEndOf="@id/txt_merek"
+        app:layout_constraintStart_toStartOf="@id/txt_merek"
+        app:layout_constraintTop_toBottomOf="@id/txt_merek">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/spn_layanan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="@id/txt_alamat"
+        app:layout_constraintStart_toStartOf="@id/txt_alamat"
+        app:layout_constraintTop_toBottomOf="@+id/txt_alamat" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="19"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/txt_catatan"
+        app:layout_constraintStart_toStartOf="@+id/txt_catatan"
+        app:layout_constraintTop_toBottomOf="@+id/txt_catatan" />
+
+    <TextView
+        android:id="@+id/txt_catatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Catatan"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/spn_layanan"
+        app:layout_constraintStart_toStartOf="@+id/spn_layanan"
+        app:layout_constraintTop_toBottomOf="@+id/spn_layanan" />
+
+    <ImageButton
+        android:id="@+id/btn_Toservis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextMultiLine3"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextMultiLine3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine3"
+        app:srcCompat="@drawable/ic_large_button" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hubungi Montir"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Toservis"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Toservis"
+        app:layout_constraintStart_toStartOf="@+id/btn_Toservis"
+        app:layout_constraintTop_toTopOf="@+id/btn_Toservis" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

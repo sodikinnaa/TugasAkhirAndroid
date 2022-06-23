@@ -26,11 +26,20 @@
         android:theme="@style/Theme.MontirKu"
         tools:targetApi="31">
         <activity
+            android:name=".Activity_layanan_darurat"
+            android:exported="false" />
+        <activity
+            android:name=".activity_beranda"
+            android:exported="false" />
+        <activity
+            android:name=".Service_rutin"
+            android:exported="false" />
+        <activity
             android:name=".home"
             android:exported="false" />
         <activity
             android:name=".register"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".login"
             android:exported="true">
@@ -67,7 +76,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

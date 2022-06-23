@@ -11,6 +11,23 @@
     <string name="email">Email</string>
     <string name="txt_confirm_pw">Konfirmasi Password</string>
     <string name="registrasi">Registrasi</string>
+
+    <string-array name="spn_pilihLayanan">
+        <item>Pilih Layanan</item>
+        <item>Ganti Oli</item>
+        <item>Ganti Aki</item>
+        <item>Ganti Ban</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="spn_pilihLayanan2">
+        <item>Pilih Layanan</item>
+        <item>Mesin Mati</item>
+        <item>Tambal Ban</item>
+        <item>Derek Motor</item>
+        <item>Lainnya</item>
+    </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

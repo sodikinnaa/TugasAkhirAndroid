@@ -135,7 +135,7 @@ public class login extends AppCompatActivity {
             Toast.makeText(login.this, "Login Successfully", Toast.LENGTH_LONG).show();
 
             // Going to Dashboard activity after login success message.
-            Intent intent = new Intent(login.this, home.class);
+            Intent intent = new Intent(login.this, activity_beranda.class);
 
             // Sending Email to Dashboard Activity using intent.
             intent.putExtra(UserEmail, EmailHolder);

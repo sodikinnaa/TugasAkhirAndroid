@@ -18,6 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class register extends AppCompatActivity {
 
     EditText Email, Password, Name;
+    TextView back;
     ImageButton Register;
     String NameHolder, EmailHolder, PasswordHolder;
     Boolean EditTextEmptyHolder;
@@ -37,8 +38,18 @@ public class register extends AppCompatActivity {
         Email = (EditText) findViewById(R.id.editEmail);
         Password = (EditText) findViewById(R.id.editPassword);
         Name = (EditText) findViewById(R.id.editName);
+        back = findViewById(R.id.btn_to_regis);
 
         sqLiteHelper = new SQLiteHelper(this);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Opening new user registration activity using intent on button click.
+                Intent signUpPage = new Intent(register.this, login.class);
+                startActivity(signUpPage);
+            }
+        });
 
         // Adding click listener to register button.
         Register.setOnClickListener(new View.OnClickListener() {

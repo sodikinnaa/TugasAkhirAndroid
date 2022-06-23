@@ -63,9 +63,9 @@ public class Maps extends AppCompatActivity {
         supportMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.google_maps);
 
         //initialize aray of place type
-        String[] placeTypeList = {"atm", "bank", "hospital", "movie_theater", "restaurant"};
+        String[] placeTypeList = {"Bengkel"};
         //initialize array of place name
-        String[] placeNameList = {"ATM", "Bank", "Hospital", "Movie Theater", "Restaurant"};
+        String[] placeNameList = {"Bengkel"};
 
         //set adapter
         spyType.setAdapter(new ArrayAdapter<>(Maps.this, android.R.layout.simple_spinner_dropdown_item, placeNameList));
@@ -94,7 +94,7 @@ public class Maps extends AppCompatActivity {
                 String url = "https://maps.googleapis.com/maps/api/..." + "?location=" + currentLat + "," + currentLong + "&radius=5000" + "&type=" + placeTypeList[i] + "&sensor=true" + "&key=" + getResources().getString(R.string.google_maps_key);
 
                 //Execute task
-                new placeTask().execute(url);
+                // new placeTask().execute(url);
             }
         });
 
