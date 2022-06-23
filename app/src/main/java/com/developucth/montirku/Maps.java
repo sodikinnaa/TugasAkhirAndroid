@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
@@ -95,6 +96,7 @@ public class Maps extends AppCompatActivity {
 
                 //Execute task
                 // new placeTask().execute(url);
+                Toast.makeText(Maps.this, "Dalam tahap pengembangan .", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -245,6 +247,7 @@ public class Maps extends AppCompatActivity {
 //                option.title(name);
 //                //add marker on map
 //                map.addMarker(option);
+
 //            }
         }
     }

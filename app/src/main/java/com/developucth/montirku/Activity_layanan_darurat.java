@@ -47,9 +47,7 @@ public class Activity_layanan_darurat extends AppCompatActivity {
                                 + "\nLayanan : *" + spn_layanan.getSelectedItem().toString() + "*"
                                 + "\nKeluhan : *" + edtMulti_catatan.getText().toString() + "*";
 
-                        String[] arr = {"6282293963119", "6282293963119"};
-                        Random r = new Random();
-                        int randomNumber = r.nextInt(arr.length);
+
 
                         String toNumber = "6282293963119"; // Replace with mobile phone number without +Sign or leading zeros, but with country code
 

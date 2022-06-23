@@ -57,6 +57,7 @@
             android:id="@+id/editPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:hint="@string/txt_pw" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -75,7 +76,8 @@
             android:id="@+id/editEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/txt_email" />
+            android:hint="@string/txt_email"
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -103,5 +105,6 @@
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
         tools:ignore="MissingConstraints,OnClick,UsingOnClickInXml" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

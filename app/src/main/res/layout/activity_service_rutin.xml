@@ -83,6 +83,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
+        android:entries="@array/spn_pilihLayanan"
         app:layout_constraintEnd_toEndOf="@id/txt_alamat"
         app:layout_constraintStart_toStartOf="@id/txt_alamat"
         app:layout_constraintTop_toBottomOf="@+id/txt_alamat" />
